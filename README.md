@@ -12,8 +12,7 @@ AirCanvas is a web application that allows users to draw on a canvas using hand 
 - Clear canvas option
 - Handwriting recognition using a pre-trained model
 
-## Installation
-Clone the repository:
+Installation:
 ```bash
 git clone https://github.com/nimmalapunithkumar/air-canvas-website
 cd aircanvas
