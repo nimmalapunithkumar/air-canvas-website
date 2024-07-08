@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirCanvas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AirCanvas - Draw with Your Hands!</h1>
+        <div class="canvas-container">
+            <canvas id="paintCanvas" width="636" height="471"></canvas>
+        </div>
+        <div class="controls">
+            <div class="color-picker">
+                <div class="color" style="background-color: black;" onclick="changeColor(0)"></div>
+                <div class="color" style="background-color: red;" onclick="changeColor(1)"></div>
+                <div class="color" style="background-color: green;" onclick="changeColor(2)"></div>
+                <div class="color" style="background-color: blue;" onclick="changeColor(3)"></div>
+            </div>
+            <button onclick="clearCanvas()">Clear</button>
+        </div>
+        <div class="video-container">
+            <img id="video_feed" src="{{ url_for('video_feed') }}" alt="Live Feed">
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
