@@ -45,7 +45,7 @@ python app.py
 N PUNITH KUMAR
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License - see the LICENSE file for details.
 ```
 
 Feel free to copy and paste this into your Markdown file!
